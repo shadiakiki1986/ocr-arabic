@@ -1,5 +1,7 @@
 # lb-ocr
-OCR + transliteration on Lebanese Government ID card scanned image
+OCR + transliteration on arabic scanned images
+
+Used specifically for Lebanese Government ID card scanned images
 
 # Installation
 

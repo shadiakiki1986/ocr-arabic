@@ -26,6 +26,16 @@ if [ "`which jq`" == "" ]; then
   echo "done"
 fi
 
+if [ "`which curl`" == "" ]; then
+  echo "install curl (sudo apt-get install curl)"
+  exit 2
+fi
+
+if [ "`which base64`" == "" ]; then
+  echo "install base64"
+  exit 2
+fi
+
 if [ "$FILE" == "" ]; then
   echo "pass path to file"
   exit 2

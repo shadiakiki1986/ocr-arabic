@@ -12,4 +12,4 @@ Used specifically for Lebanese Government ID card scanned images
 
 # Usage
 
-    ./google-ocr.sh path/to/image.jpg
+    ./ocr-arabic.sh path/to/image.jpg

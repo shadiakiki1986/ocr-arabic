@@ -1,4 +1,4 @@
-# lb-ocr
+# ocr-arabic
 OCR + transliteration on arabic scanned images
 
 Used specifically for Lebanese Government ID card scanned images

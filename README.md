@@ -13,7 +13,7 @@ Used specifically for Lebanese Government ID card scanned images
 
 # Usage
 
-Download ![example scanned ID](https://www.tradearabia.com/source/2014/08/06/id.jpg)
+Download example scanned ID
 
     wget https://www.tradearabia.com/source/2014/08/06/id.jpg -O images/id.jpg
 
@@ -21,7 +21,11 @@ Run OCR and transliteration
 
     ./ocr-arabic.sh images/id.jpg
 
-Sample output
+Example input
+
+![example scanned ID](https://www.tradearabia.com/source/2014/08/06/id.jpg)
+
+Example output
 
     Transliterated                          |                                     OCR
     ---------------------------------------------------------------------------------
